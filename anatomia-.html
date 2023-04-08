@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset='UTF-8'>
+    <title>Anatomía HTML</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="sshortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body><!--Etiqueta de cuerpo de página-->
+
+    <header>
+        <a href="index.html"><img id="logo" src="img/logo.ico" ></a>  <center><h3>ɴᴏ ʜᴀʏ ᴅɪꜱᴇÑᴏ ꜱɪɴ ᴅɪꜱᴄɪᴘʟɪɴᴀ. ɴᴏ ʜᴀʏ ᴅɪꜱᴄɪᴘʟɪɴᴀ ꜱɪɴ ɪɴᴛᴇʟɪɢᴇɴᴄɪᴀ</h3><!--Etiqueta de heading--></center><!--Etiqueta para centrar texto horizontalmente-->
+    </header>
+
+    <nav>
+        <a href="anatomiapartes.html"><h3>Anatomía Y Sus Partes</h3></a>
+    </nav>
+
+    <main>
+        <center> <img id="imagen" src="img/imagen5.png"></center><!--Etiqueta para centrar texto horizontalmente-->
+    <h1>Anatomia HTML</h1><!--Etiqueta de heading-->
+    <h4>Las etiquetas HTML tienen una estricta forma de ser escritas, la razón, radica en que las etiquetas HTML existen para dos funcionalidades: agregar contenido e indicarle al navegador cómo debe tratar ese contenido.</h4>
+<h4>Por otro lado, a parte de las funcionalidades, las etiquetas HTML poseen características que permiten diferenciarlas unas a otras y pueden desempeñar acciones diferentes dentro de un documento HTML.</h4>
+<br><!--Etiqueta de espeaciado-->
+
+<h1>A)Elementos</h1>
+<h4>El elemento completo de una etiqueta HTML es todo el contenido de la etiqueta. Existen etiquetas que se cierran automáticamente, es decir, no tienen etiqueta de cierre</h4>
+
+<h1>B) Etiqueta de apertura.</h1>
+<h4>Esta es la primera parte de la etiqueta completa, dentro de esta se agregan las características (atributos) de las etiquetas e informan las acciones que debe ejecutar el navegador web.</h4>
+
+<h1>C) Etiqueta de cierre.</h1>
+<h4>Esta etiqueta con un “/” le informa al navegador que es el final de la etiqueta. Al día de hoy, los navegadores web cierran etiquetas automáticamente, sin embargo, es una muy mala práctica no cerrarlas; a parte de dificultar la lectura, puedes generar errores de escritura de código en el editor de texto.</h4>
+
+<h1>D) Atributo de la etiqueta</h1>
+<h4>Los atributos le informan al navegador la acción a ejecutar según la etiqueta, su estructura de escritura es estricta y se escribe de la siguiente manera: `href=https://escuelawow.com`.</h4>
+
+<h1>E)Nombre del atributo</h1>
+<h4>Indica al navegador web el nombre del atributo que posee la etiqueta. En este ejemplo, el nombre del atributo es `href`.</h4>
+
+<h1>F) Valor del atributo</h1>
+<h4>Indica al navegador web el valor que tiene ese atributo, en este ejemplo es el texto de ancla al cual debe dirigirse al hacer clic sobre el componente HTML `https://escuelawow.com.</h4>
+
+<h1>G)El contenido de la etiqueta</h1>
+<h4>Es el lugar donde se coloca el valor de contenido que tiene la etiqueta. En este texto el valor de contenido es “Visita mi Web” y como se trata de una etiqueta de ancla, este componente se visualizará en el navegador web como un texto azul subrayado, indicando que es un hipervínculo.</h4>
+
+<center> <img id="imagen" src="img/imagen4.png"></center><!--Etiqueta para centrar texto horizontalmente-->
+
+<button onclick="topFunction()" id="Boton" title="Para subir">Subir</button>
+<script>
+// Get the button
+let mybutton = document.getElementById("Boton");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</main>
+
+
+<footer><!--Pie de página-->
+    <center><h3>Created by Cristian Arango and Daniel Alarcón</h3></center><!--Etiqueta para centrar texto horizontalmente-->
+</footer>
+
+</body>
+</html>

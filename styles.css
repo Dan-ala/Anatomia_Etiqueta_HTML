@@ -1,0 +1,108 @@
+/*Estilos de index page*/
+body {
+background-color: #9ea497;
+}
+
+.color{
+    background-color: #9ea497;
+}
+
+header h3{
+    text-align: right;
+    margin-top: -130px;
+    text-align: center;
+}
+
+.div { /*corregir*/
+
+    display: column;
+    margin-left: 80px ;
+}
+
+.anaBasica{
+    margin-left: 630px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.p1{
+    text-align: left;
+    margin-left: -488px;
+    margin-bottom: -40px;
+}
+
+.anaPartes{
+    margin-left: 128px;
+ 
+}
+
+.img1{
+    margin-bottom: 112px;
+}
+
+.img2{
+    margin-left: 650px;
+    margin-top: -880px;
+    height: 600px;
+    width: 575px;
+}
+
+/*Estilos de anatomiapartes.html*/
+
+nav{
+    text-align: right;
+    right: 30px;
+    background-color: gray;
+    border-radius: 20px;
+    font-size: 12px;
+    position:absolute;  /*verificar*/
+}
+
+.gif{
+    width: 400px;
+    height: 250px;
+}
+
+/*Botón*/
+
+#Boton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    background-color: rgb(0, 183, 255); /* Set a background color */
+    color: rgb(26, 24, 24); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 12px; /* Some padding */
+    border-radius: 15px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #Boton:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+.t1{
+    font-size: 3em;
+    text-align: right;
+  }
+
+  .anaText{
+    font-size: 2em;
+  }
+
+.anaHTML{
+    font-size: 2em;
+    text-align: justify;
+}
+
+#anaT{
+    font-size: 45px;
+}
+
+.container{
+    margin: -5em; 
+    margin-left: 2em; 
+    margin-top: -7em;
+}
